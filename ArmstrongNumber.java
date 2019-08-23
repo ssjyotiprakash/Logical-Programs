@@ -13,7 +13,7 @@ class ArmstrongNumber{
   int rem;
   while(t2!=0){
        int mul=1;
-       rem=t2%10;
+       rem=t2/10;
        for(int i=1;i<=length;i++){
            mul=mul*rem;
            }
